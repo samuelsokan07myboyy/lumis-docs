@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Help Center — Lumis AI</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap');
+  :root {
+    --bg: #080808; --surface: #111; --surface2: #161616; --border: #1f1f1f;
+    --text: #f0ece4; --muted: #6b6560; --dim: #383432; --accent: #e8a645;
+    --accentd: #e8a64518; --accentm: #e8a64535;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.75; padding: 0 20px 80px; max-width: 720px; margin: 0 auto; }
+  header { padding: 48px 0 32px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
+  .badge { display: inline-block; background: var(--accent); color: #000; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; padding: 4px 10px; border-radius: 4px; margin-bottom: 16px; text-transform: uppercase; }
+  h1 { font-family: 'DM Serif Display', serif; font-size: 36px; font-weight: 400; color: var(--text); margin-bottom: 8px; }
+  .subtitle { color: var(--muted); font-size: 15px; }
+  .section-title { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); margin: 40px 0 16px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 8px; }
+  .card-header { display: flex; align-items: center; gap: 12px; padding: 16px 18px; cursor: pointer; }
+  .icon { width: 32px; height: 32px; border-radius: 8px; background: var(--accentd); border: 1px solid var(--accentm); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 15px; }
+  .card-title { font-size: 14px; font-weight: 600; color: var(--text); flex: 1; }
+  .card-body { padding: 0 18px 16px 62px; color: #c8c4bc; font-size: 14px; line-height: 1.7; }
+  .card-body ul { padding-left: 16px; }
+  .card-body li { margin-bottom: 5px; }
+  .contact-card { background: var(--accentd); border: 1px solid var(--accentm); border-radius: 14px; padding: 24px; text-align: center; margin-top: 40px; }
+  .contact-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+  .contact-card p { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .contact-btn { display: inline-block; background: var(--accent); color: #000; font-weight: 700; font-size: 14px; padding: 10px 24px; border-radius: 10px; text-decoration: none; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">Support</div>
+  <h1>Help Center</h1>
+  <p class="subtitle">Everything you need to get the most out of Lumis AI</p>
+</header>
+
+<p class="section-title">Getting Started</p>
+
+<div class="card">
+  <div class="card-header"><div class="icon">👋</div><div class="card-title">What is Lumis AI?</div></div>
+  <div class="card-body"><p>Lumis is an AI-powered assistant that helps you search the web, analyze documents and images, solve math problems, write code, generate images, and have intelligent conversations — all in one app. It's powered by state-of-the-art AI models from Groq.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🆓</div><div class="card-title">What's included in the free plan?</div></div>
+  <div class="card-body"><p>The free plan gives you access to the Lumis 1 model with a limited number of messages per conversation. You can start new chats, upload files, use web search, and explore most features. Upgrade to Pro for unlimited messaging and all premium features.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">✨</div><div class="card-title">What does Lumis Pro include?</div></div>
+  <div class="card-body">
+    <ul>
+      <li>Access to all AI models including Lumis Pro (70B)</li>
+      <li>150 messages per 3-hour rolling window</li>
+      <li>Deep Research — multi-source ranked evidence</li>
+      <li>AI Copilot — interactive research companion</li>
+      <li>Agent Mode — autonomous multi-step tasks</li>
+      <li>Image generation</li>
+      <li>All future premium features</li>
+    </ul>
+  </div>
+</div>
+
+<p class="section-title">Features</p>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🖼️</div><div class="card-title">How do I upload images or documents?</div></div>
+  <div class="card-body"><p>Tap the <strong>+</strong> button in the input bar to attach up to 10 files at once. You can upload photos from your library, take a photo with your camera, or attach PDF and text documents. Lumis will analyze all of them together.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🎙️</div><div class="card-title">How does voice-to-text work?</div></div>
+  <div class="card-body"><p><strong>Hold</strong> the microphone button to start recording. <strong>Release</strong> to stop — Lumis will transcribe your speech into the text box using Groq Whisper. You can review and edit before sending. This works in any conversation.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🔍</div><div class="card-title">How does web search work?</div></div>
+  <div class="card-body"><p>Lumis automatically detects when a question needs current information and searches the web for you. You can also use the <strong>Tools</strong> menu to select Quick, Standard, or Deep Research mode to control how thoroughly Lumis searches.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🤖</div><div class="card-title">What is Agent Mode?</div></div>
+  <div class="card-body"><p>Agent Mode (Pro) lets Lumis autonomously plan and execute multi-step tasks. It creates a plan, searches the web, analyses information, and delivers a comprehensive answer — all without you having to guide it step by step.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🌍</div><div class="card-title">How do I translate responses?</div></div>
+  <div class="card-body"><p>Tap the <strong>Tools</strong> button in the input bar and toggle <strong>Translate Replies</strong>. Choose your target language from the list. Every AI response will then be translated into that language below the original answer.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">📌</div><div class="card-title">How do I pin or manage chats?</div></div>
+  <div class="card-body"><p>On mobile, <strong>long press</strong> any chat in the sidebar to see options: <strong>Pin</strong> (floats to the top), <strong>Rename</strong>, or <strong>Delete</strong>. On web, hover over a chat and click <strong>•••</strong> to access the same options.</p></div>
+</div>
+
+<p class="section-title">Account & Billing</p>
+
+<div class="card">
+  <div class="card-header"><div class="icon">💳</div><div class="card-title">How do I cancel my subscription?</div></div>
+  <div class="card-body"><p>Go to your iPhone <strong>Settings → Apple ID → Subscriptions → Lumis Pro</strong> and tap Cancel. Your Pro access continues until the end of the current billing period.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🔄</div><div class="card-title">How do I restore my purchases?</div></div>
+  <div class="card-body"><p>If you reinstall the app or switch devices, go to <strong>Settings → Subscription → Restore Purchases</strong> in the app. Make sure you're signed in with the same Apple ID you used to purchase.</p></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><div class="icon">🗑️</div><div class="card-title">How do I delete my account?</div></div>
+  <div class="card-body"><p>You can delete all your chat history from <strong>Settings → Privacy & Data → Clear All Chats</strong>. To permanently delete your account and all data, email us at <a href="mailto:samuelsokan07@gmail.com">samuelsokan07@gmail.com</a> and we'll handle it within 7 days.</p></div>
+</div>
+
+<div class="contact-card">
+  <h3>Still need help?</h3>
+  <p>Our team is here for you. Send us an email and we'll get back to you as soon as possible.</p>
+  <a href="mailto:samuelsokan07@gmail.com" class="contact-btn">Contact Support</a>
+</div>
+
+<footer>© 2025 Sokan Studio · Lumis AI · <a href="mailto:samuelsokan07@gmail.com">samuelsokan07@gmail.com</a></footer>
+</body>
+</html>
